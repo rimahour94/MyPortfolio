@@ -37,21 +37,22 @@
 
 }
 .portfolio-h{
-  position: absolute;
-        bottom: 14%;
-        width: 100%;
-        font-size: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.8rem;
 
 } 
 .circle {
-    background: black;
-    background-image: unset;
+    background: red;
+    background-image: url('./img/IMG_E1889.JPG');
     background-repeat: no-repeat;
     margin-top: 2px;
     width: 121px;
     margin: auto;
     border-radius: 50%;
-    height: 100vh;
+    height: 117px;
     margin-bottom: 15px;
 }
 .name{
@@ -189,12 +190,12 @@ width: 100%;
 
     .circle {
         
-        background-image: url("./img/IMG_E1877.JPG");
+        background-image: unset;
         margin-top: 0px;
         width: 100%;
-       border-radius: 0%;
-        height: 653px;
-     
+        border-radius: 0%;
+        background-color: black;
+        min-height: 100vh;
     }
     .contents-li {
         display: none;
@@ -202,11 +203,10 @@ width: 100%;
    
     .portfolio-h {
         position: absolute;
-        bottom:14%;
-        left: 31%;
+        bottom: 14%;
+        width: 100%;
         font-size: 2rem;
-        
-    } 
+    }
     .brgr_menu {
         display: block;
         position: absolute;
@@ -237,42 +237,6 @@ width: 100%;
       
     }
 
-    .container_carousel{
-        width: unset;
-        height: unset;
-        position: unset;
-        background-color: white;
-        overflow: unset;
-        margin: unset;
-        /* transition: all 2s; */
-    
-    }
-
-    .contents-p {
-        
-       
-        font-size: 0.7rem;
-    }
-    .container-contents {
-         height: 150px;
-    }
-    .containers {
-        background: white;
-         margin-left: 60px;
-        margin-bottom: 134px;
-        width: 64%;    
-        position: unset; 
-    }
-
-    .carousel {
-        display: block;
-    }
-    .container-scroll{
-        height: 444px;
-        overflow: unset;
-    
-    }
-}
-    
+} 
   
   
