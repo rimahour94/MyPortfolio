@@ -37,22 +37,21 @@
 
 }
 .portfolio-h{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: white;
-    font-size: 1.8rem;
+  position: absolute;
+        bottom: 14%;
+        width: 100%;
+        font-size: 2rem;
 
 } 
 .circle {
-    background: red;
-    background-image: url('./img/IMG_E1889.JPG');
+    background: black;
+    background-image: unset;
     background-repeat: no-repeat;
     margin-top: 2px;
     width: 121px;
     margin: auto;
     border-radius: 50%;
-    height: 117px;
+    height: 100vh;
     margin-bottom: 15px;
 }
 .name{
