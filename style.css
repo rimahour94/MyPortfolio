@@ -9,8 +9,8 @@
     /* overflow: hidden; */
 }
 .container-main{
-    background-image: linear-gradient(180deg, rgb(3, 3, 3), transparent);
-    /* background-color: black; */
+/*     background-image: linear-gradient(180deg, rgb(3, 3, 3), transparent); */
+    background-color: black;
     height: 625px;
 
 }
