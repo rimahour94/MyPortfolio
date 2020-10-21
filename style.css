@@ -88,8 +88,10 @@
 }
 .contents-p{
         color: white;
-        margin: 8px;
+        margin: 6px;
         font-size: .9rem;
+        list-style: none;
+        line-height: 16px;
 }
 .technologies{
    color: greenyellow;
@@ -124,29 +126,19 @@ width: 100%;
     background-color: red;
 }   
 
-.carousel{
-   /* position: relative; */
-   height: 302px;
-   width: 100%;
-   margin-top: 20px;
-}
 
-.carousel_track{
-     margin: 0;
-     padding: 0;
-     list-style: none;
-}
+
+
 .container_carousel{
     width: 50%;
-    height: 100%;
+    height: 322px;
     position: relative;
-    background-color: white;
+    background-color: skyblue;
     overflow: hidden;
     margin: auto;
     transition: all 2s;
 }
 .containers{
-    background: white;
     position: absolute;
     width: 100%;
     top: 0;
@@ -159,6 +151,14 @@ width: 100%;
     background-color: transparent;
     border: 2px solid transparent;
     outline: none;
+}
+
+
+.contents_heading{
+    text-decoration: underline;
+     font-size: 1.1rem;
+      line-height: 1.2;
+       text-align: center;
 }
 
 @media  screen and (max-width: 800px ) {
@@ -231,11 +231,76 @@ width: 100%;
       width: 42px;
     }
     .contents-h {
-       
-        font-size: .7rem;
+        font-size: 1rem;
         margin-left: 3px;
-      
+        text-decoration: none;
     }
+    .contents_heading{
+        color: white;
+    }
+
+    a
+        {
+            text-decoration: none;
+            color: darkblue;
+        }
+    .container_carousel
+    {
+     overflow: unset;
+     margin: unset;
+     width: unset;
+     height: unset;
+        
+    }
+
+
+    
+
+    .containers{
+    background: unset;
+   position: unset;
+    top: unset;
+    bottom: unset;
+    text-align: center;
+    transition: all 2s;
+    margin-bottom: 2px;
+}
+.container-scroll {
+    height: 548px;
+    overflow-y: unset;
+    margin-top: 17px;
+    /* width: 329px; */
+}
+
+.container-contents {
+   background: unset;
+    background-color: darkslategray;
+    margin-bottom: 5px;
+    height: 271px;
+    margin: auto;
+    /* margin-left: 72px; */
+    width: 74%;
+}
+
+.technologies {
+    font-size: .2rem;
+}
+
+.contents-p{
+    font-size: 1.1rem;
+}
+
+#contactme{
+    margin-top: 565px;
+}
+
+#myproject{
+    margin-top: 565px;
+}
+
+.mrgn{
+    margin-top: 4px;
+}
 
 } 
   
