@@ -161,6 +161,27 @@ width: 100%;
        text-align: center;
 }
 
+.form-input{
+    font-family: monospace;
+    font-size: 12px;
+    width: 50%;
+    padding: 4px;
+    margin-top: 14px;
+    outline: none;
+}
+
+.btn-primary{
+    border: 2px solid maroon;
+    background-color: #232121;
+    border-radius: 4px;
+    padding: 7px 0 7px 0px;
+    width: 20%;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 19px;
+    outline: none;
+}
+
 @media  screen and (max-width: 800px ) {
     .container_brgr{
         display: block;
