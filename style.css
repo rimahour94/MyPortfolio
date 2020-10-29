@@ -70,8 +70,9 @@
 .container-contents{
     background: linear-gradient(to right, rgb(45, 5, 99), rgb(32, 36, 63));
     margin-bottom: 5px;
-    height: 133px;
-    width: 100%;
+/*     height: 133px; */
+    width: 100%;        
+   padding: 9px 0 45px 4px;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -299,6 +300,7 @@ width: 100%;
     margin-bottom: 5px;
     height: 271px;
     margin: auto;
+    padding:unset;
     /* margin-left: 72px; */
     width: 74%;
 }
@@ -308,7 +310,7 @@ width: 100%;
 }
 
 .contents-p{
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 #contactme{
