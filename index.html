@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css">
   
 </head>
@@ -130,7 +130,23 @@
                 
              </ul>
          </div>
-        </div>   
+        </div> 
+         <div class="containers" id='drop_response'>
+            <h2 class="contents_heading">Drop Your Response</h2>
+           <div class="container-contents">
+          
+            <form class="formMsg">
+                <input class="form-input" type="text" id="name" autocomplete="off" placeholder="name"> <br>
+                <input class="form-input" type="email" id="from-email" autocomplete="off" placeholder="email"> <br>
+                <input class="form-input" type="text" id="subject" autocomplete="off" placeholder="subject"> <br>
+                <textarea class="message"name="text" id="text" cols="20" rows="5" autocomplete="off" placeholder="wirte something..."></textarea> <br>
+                <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        </div>
+    
+        </div>
+        
+       
     </div>
         
         
@@ -138,4 +154,27 @@
 </div>
 </body>
 </html>
+
+<script>
+    $('form').on('submit',(e)=>{
+        const name=$('#name').val().trim()
+        const email=$("#from-email").val().trim()
+        const subject=$("#subject").val().trim()
+        const text=$('#text').val().trim()
+    
+    
+        const data={
+            name,
+            email,
+            subject,
+            text
+        }
+    
+        $.post("/email",data,()=>{
+          console.log("server recieved our data")
+        })
+    })
+        
+ </script>
+
 <script src="./index.js"></script>
