@@ -160,6 +160,7 @@ width: 100%;
      font-size: 1.1rem;
       line-height: 1.2;
        text-align: center;
+       color: aliceblue;
 }
 
 .form-input{
@@ -257,9 +258,9 @@ width: 100%;
         margin-left: 3px;
         text-decoration: none;
     }
-    .contents_heading{
+/*     .contents_heading{
         color: white;
-    }
+    } */
 
     a
         {
